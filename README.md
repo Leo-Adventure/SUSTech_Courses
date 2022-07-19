@@ -3,8 +3,8 @@
 
 目前仓库内包括了
 
-- 数字逻辑，2021 Summer, lectured by Professor 余剑峤 @James-Yu
-- 计算机组成原理，2022 Spring, lectured by Professor 张进
+- 数字逻辑，2021 Summer， lectured by Professor 余剑峤 @James-Yu
+- 计算机组成原理，2022 Spring， lectured by Professor 张进
 - 计算机网络，2022 Sping，lectured by Professor 李卓钊
 - 软件工程，2022 Spring，lectured by Professor 陈馨慧
 - 离散数学，2021 Fall，lectured by Professor 王琦
