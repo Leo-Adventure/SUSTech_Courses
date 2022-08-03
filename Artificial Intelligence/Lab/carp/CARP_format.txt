@@ -1,0 +1,48 @@
+==========================================================================
+|                                                                        |
+| 1. THE FILE FORMAT                                                     |
+|                                                                        |
+==========================================================================
+
+Basically, each file consists of two parts: a specification part and a
+data part. The specification part contains information on the file format
+and on its contents. The data part contains explicit data.
+
+==========================================================================
+| 1.1. The specification part                                            |
+==========================================================================
+
+All entries in this section consist of lines of the form
+
+<keyword> : <value>
+
+where <keyword> denotes an alphanumerical keyword and <value> denotes
+alphanumerical or numerical data.
+Below we describes all the entries.
+
+1st line: NAME : <string>                           i.e., the name of the instance;
+2nd line: VERTICES : <number>                       i.e., the number of vertices;
+3rd line: DEPOT : <number>                          i.e., the depot vertex;
+4th line: REQUIRED EDGES : <number>                 i.e., the number of required edges (tasks);
+5th line: NON-REQUIRED EDGES : <number>             i.e., the number of non-required edges;
+6th line: VEHICLES : <number>                       i.e., the number of vehicles;
+7th line: CAPACITY : <number>                       i.e., the vehicle capacity;
+8th line: TOTAL COST OF REQUIRED EDGES : <number>   i.e., the total cost of all tasks;
+
+==========================================================================
+| 1.2. The data part                                                     |
+==========================================================================
+Data is given explicitly in this section. Specifically, the 9th line gives description of edges:
+9th line: NODES     COST    DEMAND
+
+Next, there is a line for each edge in the graph. An example:
+0   1   437 0
+The 1st and the 2nd number are the node indices  ("0" and "1");
+The 3rd number is the cost of the edge;
+The 4th number is the demand of the edge ("0" indicates it is a non-required edge)
+
+Please note that each edge appears only once, and each edge has two directions with
+same cost in each direction since the graph is an undirected graph.
+
+An "END" is added to the end of the file after all edges are listed.
+
