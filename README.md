@@ -3,11 +3,11 @@
 
 目前仓库内包括了
 
-- 数字逻辑 —— 余剑峤教授
-- 计算机组成原理 —— 张进教授
-- 计算机网络 —— 李卓钊教授
-- 软件工程 —— 陈馨慧教授
-- 离散数学 —— 王琦教授
-- 算法设计与分析 —— 于仕琪教授
-- 操作系统 —— 张殷乾教授
-- 人工智能 —— 袁博教授
+- 数字逻辑，2021 Summer， lectured by Professor 余剑峤 @James-Yu
+- 计算机组成原理，2022 Spring， lectured by Professor 张进
+- 计算机网络，2022 Sping，lectured by Professor 李卓钊
+- 软件工程，2022 Spring，lectured by Professor 陈馨慧
+- 离散数学，2021 Fall，lectured by Professor 王琦
+- 算法设计与分析，2022 Spring，lectured by Professor 于仕琪 @ShiqiYu
+- 操作系统，2022 Summer, lectured by Professor 张殷乾
+- 人工智能，2022 Summer, lectured by Professor 袁博
